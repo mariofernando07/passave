@@ -1,3 +1,5 @@
+
+#!/usr/bin/python
 import sys
 from form import *
 from bd import *
