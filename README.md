@@ -10,3 +10,7 @@ Igualmente para el correo y el nombre de la aplicacion o sitio web.
 
 Actualmente la aplicacion esta en fase de desarrollo. 
 Y ha funcionado sin inconvenientes en GNU/LINUX y Windows 8
+
+Para ejecutar en linux, debemos darle permisto de ejecucion al archivo main.pyw
+	chmod +x main.pyw
+En el caso de windows simplemente damos doble click al archivo main.pyw
