@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'untitled.ui'
 #
-# Created: Thu Aug 14 22:15:53 2014
+# Created: Mon Aug 18 12:11:56 2014
 #      by: PyQt4 UI code generator 4.10.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -69,6 +69,11 @@ class Ui_Dialog(object):
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
+        Dialog.setTabOrder(self.txtapp, self.txtmail)
+        Dialog.setTabOrder(self.txtmail, self.txtpas)
+        Dialog.setTabOrder(self.txtpas, self.pushButton_2)
+        Dialog.setTabOrder(self.pushButton_2, self.pushButton)
+        Dialog.setTabOrder(self.pushButton, self.tableView)
 
     def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(_translate("Dialog", "Passave", None))
